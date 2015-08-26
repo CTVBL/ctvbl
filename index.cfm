@@ -40,8 +40,12 @@
 			
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+							<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+							<li><a href="#">About</a></li>
 							<li><a href="#">Register</a></li>
+							<li><a href="#">2015/16 Season</a></li>
+							<li><a href="#">Schedule</a></li>
+							<li><a href="#">Teams</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Forms <span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
@@ -53,12 +57,14 @@
 								</ul>
 							</li>
 						</ul>
+						<!--
 						<form class="navbar-form navbar-left" role="search">
 							<div class="form-group">
 								<input class="form-control" placeholder="Search" type="text">
 							</div>
 							<button type="submit" class="btn btn-default">Submit</button>
 						</form>
+						-->
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#">Contact</a></li>
 						</ul>
