@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<appSettings>
+
+	<common>
+		<appName>CentralTorontoVolleyball</appName>
+		<appVersion>1.0.0</appVersion>
+		<errorMode>Detailed</errorMode>
+		<useIPFiltering>No</useIPFiltering>
+		<contactEmail>contact@centraltorontovolleyball.com</contactEmail>
+	</common>
+
+	<local>
+		<allowedIPs>127.0.0.1</allowedIPs>
+		<emailFrom>ctvbl-local@centraltorontovolleyball.com</emailFrom>
+		<adminServerURI>http://local.admin.centraltorontovolleyball.com/</adminServerURI>
+		<assetServerURI>http://local.assets.centraltorontovolleyball.com/</assetServerURI>
+	</local>
+
+	<development>
+		<allowedIPs>127.0.0.1</allowedIPs>
+		<emailFrom>ctvbl-dev@centraltorontovolleyball.com</emailFrom>
+		<adminServerURI>http://dev.admin.centraltorontovolleyball.com/</adminServerURI>
+		<assetServerURI>http://dev.assets.centraltorontovolleyball.com/</assetServerURI>
+	</development>
+
+	<staging>
+		<allowedIPs>127.0.0.1</allowedIPs>
+		<emailFrom>ctvbl-stg@centraltorontovolleyball.com</emailFrom>
+		<adminServerURI>http://stg.admin.centraltorontovolleyball.com/</adminServerURI>
+		<assetServerURI>http://stg.assets.centraltorontovolleyball.com/</assetServerURI>
+	</staging>
+
+	<production>
+		<allowedIPs>127.0.0.1</allowedIPs>
+		<emailFrom>ctvbl-prod@centraltorontovolleyball.com</emailFrom>
+		<adminServerURI>http://admin.centraltorontovolleyball.com/</adminServerURI>
+		<assetServerURI>http://assets.centraltorontovolleyball.com/</assetServerURI>
+	</production>
+
+</appSettings>	
