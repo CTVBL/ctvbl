@@ -75,7 +75,7 @@ component extends="framework.one"
 			REQUEST.remoteIPAddress = CGI.remote_addr;
 		}
 
-		if (APPLICATION.environment.useIPFiltering EQ "Yes")
+		if (APPLICATION.environment.useAllowedIPs EQ "Yes")
 		{
 			if (listFindNoCase(APPLICATION.environment.allowedIPs, REQUEST.remoteIPAddress) EQ 0 AND left(REQUEST.remoteIPAddress, 10) NEQ APPLICATION.environment.serverSubnet)
 			{
