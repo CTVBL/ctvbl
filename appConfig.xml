@@ -3,7 +3,7 @@
 
 	<common>
 		<appName>CentralTorontoVolleyball</appName>
-		<appVersion>1.0.1</appVersion>
+		<appVersion>1.0.2</appVersion>
 		<errorMode>Detailed</errorMode>
 		<useAllowedIPs>No</useAllowedIPs>
 		<contactEmail>contact@centraltorontovolleyball.com</contactEmail>

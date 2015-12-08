@@ -41,9 +41,9 @@
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="/?action=registrationTeam">Team Registration</a></li>
 									<li><a href="/?action=registrationIndividual">Individual Registration</a></li>
+									<li><a href="/?action=scoresheet">Scoresheet</a></li>
 									<li><a href="/?action=waiver">Waiver</a></li>
 									<li class="divider"></li>
-									<li><a href="/?action=scoresheet">Scoresheet</a></li>
 								</ul>
 							</li>
 						</ul>
